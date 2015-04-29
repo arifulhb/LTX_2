@@ -1,0 +1,29 @@
+@media print
+{    
+    .wrapper{
+        margin-top: 0px;
+    }
+    .header{
+        position: relative;
+        padding: 0px;
+    }        
+    .noprint {display: none;}
+    .print{
+        background: gray;                     
+        zoom: 70%;
+        width: 300px;
+        margin: 0mm auto;  
+        padding: 0px 15px;
+        min-height: 400px;        
+    }
+    .print .panel-heading{font-weight: bold;}
+    
+    .print dt{
+        margin-top: .5em;
+        font-size: 15px;
+    }    
+    a.noprint{display: none;width: 0px;}
+    .print dd{
+        font-size: 13px;
+    }
+}/* END PRINT MEDIA*/

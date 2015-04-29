@@ -1,0 +1,76 @@
+/*
+Avocado Custom FRONTEND
+*/
+h4,
+.h4
+.panel-heading,
+.input-lg,
+.btn-lg {
+	font-size: 24px;
+}
+.panel-heading {
+	font-size: 24px;
+}
+.top-nav ul.top-menu > li > a {
+	margin-top: 3px;
+	padding: 6px 12px;
+}
+.top-nav .username {
+	font-size: 18px;
+}
+
+.scancard .row a.btn {
+	/*font-size: 24px;*/
+	height: 50%;
+	line-height: 62px;
+	margin: 0 0 1em;
+}
+.loginPage .wrapper {
+	margin-top: 0;
+}
+
+.receipt .panel-heading {
+	background: #e5e8ef;
+	color: #444;
+}
+.receipt .panel-heading small {
+	display: block;
+	color: #666;
+}
+.receipt h3 {
+	xcolor: #5c5c5e;
+	font-weight: normal;
+	margin-top: 0;
+	padding-bottom: .8em;
+	border-bottom: 1px dashed #DDD;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.receipt dt {
+	margin-top: 1em;
+}
+.receipt dd span {
+	color: #AAA;
+}
+
+
+.customerinfo {
+	background: #E5E8EF;
+	color: #444;
+}
+.customerinfo .panel-heading {
+	font-size: 18px;
+}
+.panel-heading dl {
+	margin: 0;
+}
+.panel-heading dd span {
+	color: #AAA;
+}
+/*
+    LOGIN
+*/
+.front_login #inputPin{
+    letter-spacing: 0.5em;font-size: 1.8em;font-weight: bold;
+    
+}

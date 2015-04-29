@@ -1,0 +1,19 @@
+{
+  "name": "LRPC APP",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/arifulhb/lrpc/"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/arifulhb/lstoxero/"
+    }
+  ],
+  "require": {
+    "appiolab/lrpc": "dev-master",
+    "appiolab/lstoxero": "dev-master",
+    "phpmailer/phpmailer": "v5.2.9"
+  }
+
+}
